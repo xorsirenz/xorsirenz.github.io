@@ -42,7 +42,7 @@ a {
   height: 56px;
   width: 100%;
   overflow: hidden;
-  transition: 0.3s;
+  transition: 0.6s;
 }
 
 .nav-menu a i,
@@ -53,7 +53,7 @@ a {
 .nav-menu a span,
 .nav-menu a:focus span {
   padding: 0 5px 0 7px;
-  color: #45505b;
+  color: #09121b;
 }
 
 @media (min-width: 992px) {
@@ -82,13 +82,13 @@ a {
 .nav-menu .active span,
 .nav-menu .active:focus span,
 .nav-menu li:hover>a span {
-  color: #e48c85;
+  color: #85e48c;
 }
 
 .nav-menu a:hover,
 .nav-menu li:hover>a {
   width: 100%;
-  color: #348c85;
+  color: #8c85e4;
 }
 
 .nav-menu a:hover span,
