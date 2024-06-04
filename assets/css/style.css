@@ -1,46 +1,29 @@
-body {
-    background-color: #09121b;
-}
-
-a {
-  text-decoration: none;
+body { 
+  background-color: #09121b; 
 }
 
 #header {
   position: fixed;
   top: 0;
-  left: 0;
   bottom: 0;
-  z-index: 9995;
-  transition: all 0.5s;
-  padding: 15px;
-  overflow-y: auto;
+  padding: 6px;
 }
 
 .nav-menu {
-  padding: 0;
   display: block;
-}
-
-.nav-menu * {
-  margin: 0;
-  padding: 0;
-  list-style: none;
 }
 
 .nav-menu a,
 .nav-menu a:focus {
   display: flex;
   align-items: center;
-  color: #09121b;
-  padding: 10px 18px;
-  margin-bottom: 8px;
-  transition: 0.3s;
+  color: #e48c85;
+  padding: 2px 2px;
+  margin-bottom: 1px;
+  transition: 0.5s;
   font-size: 15px;
-  border-radius: 50px;
-  background: #e48c85;
+  background: #09121b;
   height: 56px;
-  width: 100%;
   overflow: hidden;
   transition: 0.6s;
 }
@@ -48,12 +31,6 @@ a {
 .nav-menu a i,
 .nav-menu a:focus i {
   font-size: 20px;
-}
-
-.nav-menu a span,
-.nav-menu a:focus span {
-  padding: 0 5px 0 7px;
-  color: #09121b;
 }
 
 @media (min-width: 992px) {
@@ -66,22 +43,14 @@ a {
   .nav-menu a span,
   .nav-menu a:focus span {
     display: none;
-    color: #09121b;
   }
-}
-
-.nav-menu a:hover,
-.nav-menu .active,
-.nav-menu .active:focus,
-.nav-menu li:hover>a {
-  color: #e48c85;
-  background: #09121b;
 }
 
 .nav-menu a:hover span,
 .nav-menu .active span,
 .nav-menu .active:focus span,
 .nav-menu li:hover>a span {
+  display: block;
   color: #85e48c;
 }
 
@@ -89,42 +58,4 @@ a {
 .nav-menu li:hover>a {
   width: 100%;
   color: #8c85e4;
-}
-
-.nav-menu a:hover span,
-.nav-menu li:hover>a span {
-  display: block;
-}
-
-.mobile-nav-toggle {
-  position: fixed;
-  right: 10px;
-  top: 10px;
-  z-index: 9998;
-  border: 0;
-  background: e48c85;
-  font-size: 28px;
-  transition: all 0.4s;
-  outline: none !important;
-  line-height: 0;
-  cursor: pointer;
-  border-radius: 50px;
-  padding: 5px;
-}
-
-.mobile-nav-toggle i {
-  color: #09121b;
-}
-
-.mobile-nav-active {
-  overflow: hidden;
-}
-
-.mobile-nav-active #header {
-  left: 0;
-}
-
-.mobile-nav-active .mobile-nav-toggle {
-  color: #e48c85;
-  background-color: #09121b;
 }
