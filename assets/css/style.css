@@ -65,7 +65,7 @@ iframe[src*=youtube] {
     background-color: #e48c85;
 }
 
-.mainheaders{
+.main-headers{
     margin: 0px;
     font-weight: normal;
     letter-spacing: 2px;
@@ -218,3 +218,12 @@ a:active{
     letter-spacing: 2px;
 }
 
+.headers a{
+    color: #ffffff;
+    letter-spacing: 2px;
+}
+
+.headers a:hover{
+    color: #09121b;
+    letter-spacing: 2px;
+}
