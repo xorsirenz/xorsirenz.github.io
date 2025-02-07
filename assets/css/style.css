@@ -70,6 +70,10 @@ color: #fff;
 letter-spacing: 1px;
 }
 
+.contact-content{
+    padding: 2px 2px 2px 16px;
+}
+
 .nav-menu {
   display: block;
 }
@@ -117,15 +121,16 @@ letter-spacing: 1px;
 .nav-menu .active,
 .nav-menu .active:focus,
 .nav-menu li:hover>a {
-  color: #e48c85;
-  background: #09121b;
+    color: #e48c85;
+    background: #09121b;
+    letter-spacing: 2px;
 }
 
 .nav-menu a:hover span,
 .nav-menu .active span,
 .nav-menu .active:focus span,
 .nav-menu li:hover>a span {
-  color: #85e48c;
+    color: #85e48c;
 }
 
 .nav-menu a:hover,
@@ -188,4 +193,12 @@ color: #8c85e4;
  
 a:active{
 font-weight: bold;
+}
+
+.main-content a{
+    color: #e48c85;
+}
+
+.main-content a:hover{
+    color: #85e48c;
 }
