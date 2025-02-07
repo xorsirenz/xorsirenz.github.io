@@ -203,8 +203,10 @@ font-weight: bold;
 
 .main-content a{
     color: #e48c85;
+    letter-spacing: 2px;
 }
 
 .main-content a:hover{
     color: #85e48c;
+    letter-spacing: 2px;
 }
