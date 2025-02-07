@@ -1,79 +1,86 @@
 body{
-font-family: Arial, Helvetica, sans-serif;
-background-color: #09121b;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #09121b;
 }
 
 #parent{
-width: auto;
+    width: auto;
 }
 
 #left-bar{
-background-color: #fff;
-display: block;
-float: left;
-width: 352px;
-margin: 20px;
+    background-color: #fff;
+    display: block;
+    float: left;
+    width: 352px;
+    margin: 20px;
 }
 
 #pfp{
-width: 350px;
+    width: 350px;
 }
 
 #nav{
-font-size: 18px;
+    font-size: 18px;
 }
 
 li{
-margin: 0px 4px;
-width: 350px;
-display: block;
-float: left;
-letter-spacing: 1px;
+    margin: 0px 4px;
+    width: 350px;
+    display: block;
+    float: left;
+    letter-spacing: 1px;
 }
 
 #main{
-background-color: #09121b;
-float: left;
-margin: 20px;
-max-width: 80%;
+    background-color: #09121b;
+    float: left;
+    margin: 20px;
+    max-width: 80%;
+}
+
+iframe[src*=youtube] {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    padding-bottom: 10px;
 }
 
 #footer{
-color: #fff;
-font-size: 15px;
-letter-spacing: 2px;
-margin-left: 6px;
-margin-bottom: 6px;
-position: absolute;
-bottom: 0;
+    display: block;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin: auto auto 6px 6px;
+    position: fixed;
+    bottom: 0;
 }
 
 .headers{
-margin: 0px;
-font-weight: normal;
-letter-spacing: 2px;
-font-size: 24px;
-line-height: 16px;
-color: #fff;
-background-color: #e48c85;
+    margin: 0px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    font-size: 24px;
+    line-height: 16px;
+    color: #fff;
+    background-color: #e48c85;
 }
 
 .mainheaders{
-margin: 0px;
-font-weight: normal;
-letter-spacing: 2px;
-font-size: 20px;
-line-height: 13px;
-color: #fff;
-background-color: #09121b;
+    margin: 0px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    font-size: 20px;
+    line-height: 13px;
+    color: #fff;
+    background-color: #09121b;
 }
  
 .main-content{
-padding: 10px 2px 2px 20px;
-text-align: justify;
-font-size: 16px;
-color: #fff;
-letter-spacing: 1px;
+    padding: 10px 2px 2px 20px;
+    text-align: justify;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 1px;
 }
 
 .contact-content{
@@ -81,32 +88,32 @@ letter-spacing: 1px;
 }
 
 .nav-menu {
-  display: block;
+    display: block;
 }
 
 .nav-menu a,
 .nav-menu a:focus {
-  display: flex;
-  align-items: left;
-  color: #e48c85;
-  padding: 2px 2px;
-  margin-bottom: 0px;
-  transition: 0.5s;
-  font-size: 15px;
-  background: #09121b;
-  height: 24px;
-  overflow: hidden;
-  transition: 0.6s;
+    display: flex;
+    align-items: left;
+    color: #e48c85;
+    padding: 2px 2px;
+    margin-bottom: 0px;
+    transition: 0.5s;
+    font-size: 15px;
+    background: #09121b;
+    height: 24px;
+    overflow: hidden;
+    transition: 0.6s;
 }
 
 .nav-menu a i,
 .nav-menu a:focus i {
-  font-size: 20px;
+    font-size: 20px;
 }
 
 .nav-menu a span,
 .nav-menu a:focus span {
-  color: #09121b;
+    color: #09121b;
 }
 
 @media (min-width: 992px) {
@@ -141,64 +148,64 @@ letter-spacing: 1px;
 
 .nav-menu a:hover,
 .nav-menu li:hover>a {
-  width: 100%;
-  height: 24px;
-  color: #8c85e4;
+    width: 100%;
+    height: 24px;
+    color: #8c85e4;
 }
 
 .nav-menu a:hover span,
 .nav-menu li:hover>a span {
-  display: block;
+    display: block;
 }
 
 .mobile-nav-toggle {
-  position: fixed;
-  right: 10px;
-  top: 10px;
-  z-index: 9998;
-  border: 0;
-  background: e48c85;
-  font-size: 28px;
-  transition: all 0.4s;
-  outline: none !important;
-  line-height: 0;
-  cursor: pointer;
-  border-radius: 50px;
-  padding: 5px;
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    z-index: 9998;
+    border: 0;
+    background: e48c85;
+    font-size: 28px;
+    transition: all 0.4s;
+    outline: none !important;
+    line-height: 0;
+    cursor: pointer;
+    border-radius: 50px;
+    padding: 5px;
 }
 
 .mobile-nav-toggle i {
-  color: #09121b;
+    color: #09121b;
 }
 
 .mobile-nav-active {
-  overflow: hidden;
+    overflow: hidden;
 }
 
 .mobile-nav-active #header {
-  left: 0;
+    left: 0;
 }
 
 .mobile-nav-active .mobile-nav-toggle {
-  color: #e48c85;
-  background-color: #09121b;
+    color: #e48c85;
+    background-color: #09121b;
 }
 
 a{
-text-decoration: none;
-color: #09121b;
+    text-decoration: none;
+    color: #09121b;
 }
  
 a:visited{
-color: #8c85e4;
+    color: #8c85e4;
 }
  
 a:hover{
-color: #8c85e4;
+    color: #8c85e4;
 }
  
 a:active{
-font-weight: bold;
+    font-weight: bold;
 }
 
 .main-content a{
@@ -210,3 +217,4 @@ font-weight: bold;
     color: #85e48c;
     letter-spacing: 2px;
 }
+
