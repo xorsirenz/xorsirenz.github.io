@@ -39,7 +39,7 @@ li{
     max-width: 75%;
 }
 
-iframe[src*=youtube] {
+video {
     display: block;
     margin: 0 auto;
     max-width: 100%;
