@@ -4,15 +4,15 @@ background-color: #09121b;
 }
 
 #parent{
-width: 900px;
+width: auto;
 }
 
 #left-bar{
 background-color: #fff;
+display: block;
 float: left;
 width: 175px;
 margin: 20px;
-position: fixed;
 }
 
 #pfp{
@@ -32,9 +32,9 @@ float: left;
 
 #main{
 background-color: #09121b;
-float: right;
-width: 88%;
+float: left;
 margin: 20px;
+max-width: 80%;
 }
 
 .webring{
@@ -63,7 +63,7 @@ background-color: #09121b;
 }
  
 .main-content{
-padding: 0px 15px 15px 15px;
+padding: 10px 2px 2px 20px;
 text-align: justify;
 font-size: 16px;
 color: #fff;
