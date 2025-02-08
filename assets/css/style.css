@@ -87,6 +87,7 @@ video {
 }
  
 .main-content{
+    float: left;
     padding: 10px 2px 2px 20px;
     text-align: justify;
     font-size: 16px;
