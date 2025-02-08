@@ -37,6 +37,7 @@ li{
     float: left;
     margin: 20px auto;
     max-width: 75%;
+    min-width: 75%;
 }
 
 iframe[src*=youtube] {
