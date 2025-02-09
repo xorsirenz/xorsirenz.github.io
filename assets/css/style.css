@@ -1,18 +1,35 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #09121b;
+
+}
+.parent {
+    display: flex;
+    flex-flow: row wrap;
 }
 
-.sidebar{
-    background-color: #09121b;
-    position: fixed;
-    margin-left: 300px;
-    margin: auto auto auto 20px;
-    z-index: 1;
-    overflow-x: hidden;
+.parent > * {
+    padding: 2px;
+    margin: 2px;
+    flex: 1 100%;
+    border-radius: 2px;
 }
 
-.headers{
+.header {
+    background: #09121b;
+}
+
+.footer {
+    background: 333;
+}
+
+.sidebar {
+    min-width: 352px;
+    max-width: 352px;
+    max-heddight: 400px;
+}
+
+.sidebar-header{
     margin: 0px;
     font-weight: normal;
     letter-spacing: 2px;
@@ -22,12 +39,12 @@ body{
     background-color: #e48c85;
 }
 
-.headers a{
+.sidebar-header a{
     color: #fff;
     letter-spacing: 2px;
 }
 
-.headers a:hover{
+.sidebar-header a:hover{
     color: #09121b;
     letter-spacing: 2px;
 }
@@ -45,12 +62,10 @@ body{
     padding: 2px 2px 2px 2px;
 }
 
-.main{
-    flex: 1;
-    overflow-x: scroll;
-    min-width: 402px;
-    background-color: #09121b;
-    margin: 20px auto auto 400px;
+.main {
+    text-align: left;
+    background: #09121b;
+    font-size: 24px;
 }
 
 .main-headers{
@@ -79,15 +94,6 @@ body{
 .main-content a:hover{
     color: #85e48c;
     letter-spacing: 2px;
-}
-
-#footer{
-    color: #fff;
-    font-size: 15px;
-    letter-spacing: 2px;
-    margin: auto auto 6px 6px;
-    position: fixed;
-    bottom: 0;
 }
 
 li{
@@ -154,12 +160,32 @@ video {
     color: #09121b;
 }
 
-@media (min-width: 767px) {
-    .main{ 
-        width:auto;
-        }
+@media all and (min-width: 800px) {
+    .main {
+        flex: 3;
     }
 
+    .sidebar {
+        order: 1;
+    }
+
+    .main {
+    order: 3;
+    }
+
+    .footer {
+    order: 4;
+    }
+}
+
+@media all and (min-width: 600px) {
+    .aside {
+        flex: 1;
+        
+    }
+}
+
+@media (min-width: 767px) {
   .nav-menu a,
   .nav-menu a:focus {
     width: 56px;
@@ -198,4 +224,3 @@ video {
 .nav-menu a:hover span,
 .nav-menu li:hover>a span {
     display: block;
-}
