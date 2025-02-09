@@ -50,6 +50,7 @@ body{
 }
 
 #main{
+    position: fixed;
     overflow-x: hidden;
     min-width: 402px;
     background-color: #09121b;
