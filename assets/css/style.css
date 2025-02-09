@@ -45,7 +45,7 @@ body{
     padding: 2px 2px 2px 2px;
 }
 
-#main{
+.main{
     overflow-x: hidden;
     min-width: 402px;
     background-color: #09121b;
