@@ -46,6 +46,7 @@ body{
 }
 
 #main{
+    overflow-x: hidden;
     min-width: 402px;
     background-color: #09121b;
     float: left;
