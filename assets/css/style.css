@@ -3,16 +3,11 @@ body{
     background-color: #09121b;
 }
 
-.parent{
-    display: flex;
-    width: 100%
-}
-
 .sidebar{
     background-color: #09121b;
     position: fixed;
-    width: 352px;
-    margin: 20px;
+    margin-left: 300px;
+    margin: auto auto auto 20px;
     z-index: 1;
     overflow-x: hidden;
 }
@@ -38,7 +33,7 @@ body{
 }
 
 #pfp{
-    width: 350px;
+    width: 352px;
 }
 
 #nav{
@@ -159,7 +154,11 @@ video {
     color: #09121b;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 767px) {
+    .main{ 
+        width:auto;
+        }
+    }
 
   .nav-menu a,
   .nav-menu a:focus {
