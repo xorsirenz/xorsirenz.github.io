@@ -3,66 +3,11 @@ body{
     background-color: #09121b;
 }
 
-#parent{
-    width: auto;
-}
-
-#left-bar{
+.sidebar{
     background-color: #fff;
-    display: block;
     float: left;
     width: 352px;
     margin: 20px;
-}
-
-#pfp{
-    width: 350px;
-}
-
-#nav{
-    font-size: 18px;
-}
-
-li{
-    margin: 0px 4px;
-    width: 350px;
-    display: block;
-    letter-spacing: 1px;
-}
-
-#main{
-    display: block;
-    background-color: #09121b;
-    float: left;
-    margin: 20px auto;
-    max-width: 75%;
-    min-width: 75%;
-}
-
-iframe[src*=youtube] {
-    //pointer-events: none;
-    display: block;
-    border: none;
-    margin: 0 auto;
-    max-width: 100%;
-    padding-bottom: 10px;
-}
-
-video {
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-    padding-bottom: 10px;
-}
-
-#footer{
-    display: block;
-    color: #fff;
-    font-size: 15px;
-    letter-spacing: 2px;
-    margin: auto auto 6px 6px;
-    position: fixed;
-    bottom: 0;
 }
 
 .headers{
@@ -73,6 +18,33 @@ video {
     line-height: 16px;
     color: #fff;
     background-color: #e48c85;
+}
+
+.headers a{
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.headers a:hover{
+    color: #09121b;
+    letter-spacing: 2px;
+}
+
+#pfp{
+    width: 350px;
+}
+
+#nav{
+    font-size: 18px;
+}
+
+#main{
+    display: block;
+    background-color: #09121b;
+    float: left;
+    margin: 20px auto;
+    max-width: 75%;
+    min-width: 75%;
 }
 
 .main-headers{
@@ -92,6 +64,39 @@ video {
     font-size: 16px;
     color: #fff;
     letter-spacing: 1px;
+}
+
+#footer{
+    display: block;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin: auto auto 6px 6px;
+    position: fixed;
+    bottom: 0;
+}
+
+li{
+    margin: 0px 4px;
+    width: 350px;
+    display: block;
+    letter-spacing: 1px;
+}
+
+iframe[src*=youtube] {
+    //pointer-events: none;
+    display: block;
+    border: none;
+    margin: 0 auto;
+    max-width: 100%;
+    padding-bottom: 10px;
+}
+
+video {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    padding-bottom: 10px;
 }
 
 .contact-content{
@@ -225,12 +230,3 @@ a:active{
     letter-spacing: 2px;
 }
 
-.headers a{
-    color: #ffffff;
-    letter-spacing: 2px;
-}
-
-.headers a:hover{
-    color: #09121b;
-    letter-spacing: 2px;
-}
