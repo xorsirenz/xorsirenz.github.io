@@ -20,12 +20,12 @@ body{
 }
 
 .footer {
-    background: 333;
+    color: #fff;
 }
 
 .sidebar {
-    min-width: 352px;
-    max-width: 352px;
+    min-width: 356px;
+    max-width: 356px;
     max-heddight: 400px;
 }
 
