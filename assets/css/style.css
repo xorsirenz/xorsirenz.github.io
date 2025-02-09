@@ -4,10 +4,12 @@ body{
 }
 
 .sidebar{
-    background-color: #fff;
-    float: left;
+    background-color: #09121b;
+    position: fixed;
     width: 352px;
     margin: 20px;
+    z-index: 1;
+    overflow-x: hidden;
 }
 
 .headers{
@@ -35,16 +37,19 @@ body{
 }
 
 #nav{
+    background-color: #fff;
     font-size: 18px;
 }
 
+.contact-content{
+    padding: 2px 2px 2px 2px;
+}
+
 #main{
-    display: block;
+    min-width: 402px;
     background-color: #09121b;
     float: left;
-    margin: 20px auto;
-    max-width: 75%;
-    min-width: 75%;
+    margin: 20px auto auto 400px;
 }
 
 .main-headers{
@@ -58,7 +63,6 @@ body{
 }
  
 .main-content{
-    float: left;
     padding: 10px 2px 2px 20px;
     text-align: justify;
     font-size: 16px;
@@ -66,8 +70,17 @@ body{
     letter-spacing: 1px;
 }
 
+.main-content a{
+    color: #e48c85;
+    letter-spacing: 2px;
+}
+
+.main-content a:hover{
+    color: #85e48c;
+    letter-spacing: 2px;
+}
+
 #footer{
-    display: block;
     color: #fff;
     font-size: 15px;
     letter-spacing: 2px;
@@ -83,9 +96,21 @@ li{
     letter-spacing: 1px;
 }
 
+a{
+    text-decoration: none;
+    color: #09121b;
+}
+ 
+a:hover{
+    color: #8c85e4;
+}
+ 
+a:active{
+    font-weight: bold;
+}
+
 iframe[src*=youtube] {
     //pointer-events: none;
-    display: block;
     border: none;
     margin: 0 auto;
     max-width: 100%;
@@ -97,10 +122,6 @@ video {
     margin: 0 auto;
     max-width: 100%;
     padding-bottom: 10px;
-}
-
-.contact-content{
-    padding: 2px 2px 2px 16px;
 }
 
 .nav-menu {
@@ -173,60 +194,3 @@ video {
 .nav-menu li:hover>a span {
     display: block;
 }
-
-.mobile-nav-toggle {
-    position: fixed;
-    right: 10px;
-    top: 10px;
-    z-index: 9998;
-    border: 0;
-    background: e48c85;
-    font-size: 28px;
-    transition: all 0.4s;
-    outline: none !important;
-    line-height: 0;
-    cursor: pointer;
-    border-radius: 50px;
-    padding: 5px;
-}
-
-.mobile-nav-toggle i {
-    color: #09121b;
-}
-
-.mobile-nav-active {
-    overflow: hidden;
-}
-
-.mobile-nav-active #header {
-    left: 0;
-}
-
-.mobile-nav-active .mobile-nav-toggle {
-    color: #e48c85;
-    background-color: #09121b;
-}
-
-a{
-    text-decoration: none;
-    color: #09121b;
-}
- 
-a:hover{
-    color: #8c85e4;
-}
- 
-a:active{
-    font-weight: bold;
-}
-
-.main-content a{
-    color: #e48c85;
-    letter-spacing: 2px;
-}
-
-.main-content a:hover{
-    color: #85e48c;
-    letter-spacing: 2px;
-}
-
