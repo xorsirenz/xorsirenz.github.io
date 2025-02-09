@@ -52,7 +52,7 @@ body{
 
 .main{
     flex: 1;
-    overflow-x: hidden;
+    overflow-x: scroll;
     min-width: 402px;
     background-color: #09121b;
     margin: 20px auto auto 400px;
