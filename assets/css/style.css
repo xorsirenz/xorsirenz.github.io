@@ -116,6 +116,11 @@ a:active{
     font-weight: bold;
 }
 
+.grayscale {
+    display: inline;
+    color: #6e6a86;
+}
+
 iframe[src*=youtube] {
     //pointer-events: none;
     border: none;
