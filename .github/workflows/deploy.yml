@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: Checkout repo
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
@@ -38,12 +38,10 @@ jobs:
 
       # -------------------
       # Neocities
-      # -------------------
-      - name: Install Neocities CLI
-        run: npm install -g neocities-cli
-
-      - name: Deploy to Neocities
-        env:
-          NEOCITIES_API_KEY: ${{ secrets.NEOCITIES_API_KEY }}
-        run: |
-          neocities push public/
+      # ------------------
+      - name: deploy to neocities
+        uses: bcomnes/deploy-to-neocities@v3
+        with:
+          api_token: ${{ secrets.NEOCITIES_API_TOKEN }}
+          cleanup: true
+          dist_dir: "./"
