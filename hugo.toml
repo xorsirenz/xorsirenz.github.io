@@ -1,6 +1,6 @@
 [[menus.main]]
 name = "xorsirenz(home)"
-url = "https://xorsirenz.github.io/"
+url = "/"
 
 [markup]
     [markup.goldmark]
