@@ -10,3 +10,7 @@ url = "/"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+  [markup.highlight]
+    style = "rose-pine"
+    lineNos = false
