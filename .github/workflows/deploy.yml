@@ -1,0 +1,46 @@
+
+name: Build and Deploy Hugo
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: 'latest'
+
+      - name: Build site
+        run: hugo --minify
+
+      # -------------------
+      # GitHub Pages
+      # -------------------
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+
+      # -------------------
+      # Neocities
+      # -------------------
+      - name: Install Neocities CLI
+        run: npm install -g neocities-cli
+
+      - name: Deploy to Neocities
+        env:
+          NEOCITIES_API_KEY: ${{ secrets.NEOCITIES_API_KEY }}
+        run: |
+          neocities push public/
