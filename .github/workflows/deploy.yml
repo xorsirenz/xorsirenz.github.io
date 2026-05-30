@@ -1,4 +1,3 @@
-
 name: Build and Deploy Hugo
 
 on:
@@ -44,4 +43,4 @@ jobs:
         with:
           api_token: ${{ secrets.NEOCITIES_API_TOKEN }}
           cleanup: false
-          dist_dir: "./"
+          dist_dir: "./public"
