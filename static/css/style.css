@@ -103,6 +103,26 @@ li{
     letter-spacing: 1px;
 }
 
+p code {
+    background-color: #191724;
+    color: #ebbcba;
+    padding: 0.15em 0.5em;
+    border-radius: 6px;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 0.9em;
+    border: 1px solid #26233a;
+    line-height: 1.4;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+
+p code:hover {
+    background-color: #26233a;
+    color: #f6c177;
+    transition: 0.2s;
+}
+
 a{
     text-decoration: none;
     color: #09121b;
