@@ -1,4 +1,32 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>xorsirenz(home)</title><link>https://xorsirenz.github.io/</link><description>Recent content on xorsirenz(home)</description><generator>Hugo</generator><language>en</language><atom:link href="https://xorsirenz.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>xorsirenz(about)</title><link>https://xorsirenz.github.io/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://xorsirenz.github.io/about/</guid><description>&lt;article class="main"&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>xorsirenz(home)</title><link>https://xorsirenz.github.io/</link><description>Recent content on xorsirenz(home)</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 30 May 2026 12:00:00 +0000</lastBuildDate><atom:link href="https://xorsirenz.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Mc Server</title><link>https://xorsirenz.github.io/blog/mc-server/</link><pubDate>Sat, 30 May 2026 12:00:00 +0000</pubDate><guid>https://xorsirenz.github.io/blog/mc-server/</guid><description>&lt;article class="main"&gt;
+ &lt;h2 class="main-headers"&gt;11101011a&amp;f- 'ᵇˡᵒᵍ&lt;/h2&gt;
+ &lt;div class="main-content"&gt;
+&lt;h2 id="minecraft-server-install-guide"&gt;Minecraft Server Install Guide:&lt;/h2&gt;
+&lt;h3 id="updating-the-system"&gt;Updating the system&lt;/h3&gt;
+&lt;p&gt;First step we want to do is make sure our Debian system is up to date.
+&lt;br&gt;
+&lt;code&gt;apt update &amp;amp;&amp;amp; apt upgrade&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id="setting-up-linux-user"&gt;Setting up linux user&lt;/h3&gt;
+&lt;p&gt;First thing we want to do is setup a non-root user that we can connect to via SSH and configure the linux server with:
+&lt;br&gt;
+&lt;code&gt;useradd -mU -s /bin/bash -G users,sudo &amp;lt;name&amp;gt; &amp;amp;&amp;amp; passwd &amp;lt;name&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Open up another terminal or multiplexer and verify you are able to login via SSH.
+&lt;br&gt;
+&lt;code&gt;ssh &amp;lt;user&amp;gt;@&amp;lt;ip-address&amp;gt;&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Ubuntumini</title><link>https://xorsirenz.github.io/blog/ubuntumini/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://xorsirenz.github.io/blog/ubuntumini/</guid><description>&lt;article class="main"&gt;
+ &lt;h2 class="main-headers"&gt;11101011a&amp;f- 'ᵇˡᵒᵍ&lt;/h2&gt;
+ &lt;div class="main-content"&gt;
+&lt;h2 id="ubuntuminiiso-install-guide"&gt;UbuntuMini.iso Install Guide:&lt;/h2&gt;
+&lt;li&gt;By default the Ubuntu minimal .iso will only boot with a legacy BIOS. So im going to show you how you can get a UbuntuMini.iso on a UEFI system so we can install a minimal Ubuntu setup for REMnux. For this to happen we must build our own ISO using the Ubuntu minimal ISO, and a Ubuntu Server ISO.&lt;br&gt; Through my research on this, I came across a script on &lt;a target="_blank" href="https://noobient.com/2019/06/25/ubuntu-18-04-uefi-network-installer/"&gt;Noobient&lt;/a&gt;
+&lt;br&gt;
+&lt;li&gt;First lets create a temp directory for our work:&lt;br&gt;
+ &lt;code&gt;$ mkdir /tmp/remnux&lt;/code&gt;&lt;/li&gt;
+ &lt;li&gt;Next we will create a file for our script: (You can call this whatever you'd like, I personally just named it customiso.sh)&lt;br&gt;
+ &lt;code&gt;$ touch customiso.sh&lt;/code&gt;&lt;/li&gt;
+ &lt;li&gt;Lets copy the script into the customiso file, then make it executable. You can use whatever text editor you would like. I will be using vim in this example.&lt;br&gt;
+ &lt;code&gt;$ vim customiso.sh&lt;/code&gt;&lt;/li&gt;
+ &lt;br&gt;
+ &lt;div class="cpy" title="Copy Code to Clipboard"&gt;&lt;i class="icon small"&gt;&lt;/i&gt;&lt;pre&gt;&lt;code&gt;#!/bin/bash
+&lt;p&gt;set -eu&lt;/p&gt;</description></item><item><title>xorsirenz(about)</title><link>https://xorsirenz.github.io/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://xorsirenz.github.io/about/</guid><description>&lt;article class="main"&gt;
  &lt;h2 class="main-headers"&gt;11101011a&amp;f- 'ᵃᵇᵒᵘᵗ&lt;/h2&gt; 
  &lt;div class="main-content"&gt;
  &lt;p&gt;hi and welcome to my minimal website
@@ -9,12 +37,6 @@
  &lt;li&gt;&lt;a href="https://www.scworld.com/podcast-subscribe"&gt;security weekly&lt;/a&gt;&lt;/li&gt;
  &lt;li&gt;&lt;a href="https://twit.tv/shows/security-now"&gt;security now&lt;/a&gt;&lt;/li&gt;
  &lt;li&gt;&lt;a href="https://feed.jupiter.zone/allshows"&gt;jupiter broadcasting&lt;/a&gt;&lt;/li&gt;
- &lt;/div&gt;
-&lt;/article&gt;</description></item><item><title>xorsirenz(blog)</title><link>https://xorsirenz.github.io/blog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://xorsirenz.github.io/blog/</guid><description>&lt;article class="main"&gt;
- &lt;h2 class="main-headers"&gt;11101011a&amp;f- 'ᵇˡᵒᵍ&lt;/h2&gt;
- &lt;div class="main-content"&gt;
- &lt;li&gt;&lt;span class="grayscale"&gt;2025-11-27 // &lt;/span&gt;&lt;a href="https://gist.github.com/xorsirenz/d71e37815e4397701862eb8139c734d0"&gt;minecraft server&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;span class="grayscale"&gt;2021-12-30 // &lt;/span&gt;&lt;a href="https://gist.github.com/xorsirenz/762e17272bc971b2abff8afb436dab0e"&gt;ubuntu-mini.iso&lt;/a&gt;&lt;/li&gt;
  &lt;/div&gt;
 &lt;/article&gt;</description></item><item><title>xorsirenz(imabot)</title><link>https://xorsirenz.github.io/cyborg/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://xorsirenz.github.io/cyborg/</guid><description>&lt;article class="main"&gt;
  &lt;h2 class="main-headers"&gt;11101011a&amp;f- 'ᶜʸᵇᵒʳᵍ&lt;/h2&gt;
