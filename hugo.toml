@@ -1,8 +1,12 @@
+baseURL = "https://xorsirenz.github.io/"
+languageCode = "en"
+title = "xorsirenz(home)"
+
 [[menus.main]]
 name = "xorsirenz(home)"
 url = "/"
 
 [markup]
-    [markup.goldmark]
-        [markup.goldmark.renderer]
-            unsafe = true
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
