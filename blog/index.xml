@@ -16,14 +16,4 @@
  &lt;h2 class="main-headers"&gt;11101011a&amp;f- 'ᵇˡᵒᵍ&lt;/h2&gt;
  &lt;div class="main-content"&gt;
 &lt;h2 id="ubuntuminiiso-install-guide"&gt;UbuntuMini.iso Install Guide:&lt;/h2&gt;
-&lt;li&gt;By default the Ubuntu minimal .iso will only boot with a legacy BIOS. So im going to show you how you can get a UbuntuMini.iso on a UEFI system so we can install a minimal Ubuntu setup for REMnux. For this to happen we must build our own ISO using the Ubuntu minimal ISO, and a Ubuntu Server ISO.&lt;br&gt; Through my research on this, I came across a script on &lt;a target="_blank" href="https://noobient.com/2019/06/25/ubuntu-18-04-uefi-network-installer/"&gt;Noobient&lt;/a&gt;
-&lt;br&gt;
-&lt;li&gt;First lets create a temp directory for our work:&lt;br&gt;
- &lt;code&gt;$ mkdir /tmp/remnux&lt;/code&gt;&lt;/li&gt;
- &lt;li&gt;Next we will create a file for our script: (You can call this whatever you'd like, I personally just named it customiso.sh)&lt;br&gt;
- &lt;code&gt;$ touch customiso.sh&lt;/code&gt;&lt;/li&gt;
- &lt;li&gt;Lets copy the script into the customiso file, then make it executable. You can use whatever text editor you would like. I will be using vim in this example.&lt;br&gt;
- &lt;code&gt;$ vim customiso.sh&lt;/code&gt;&lt;/li&gt;
- &lt;br&gt;
- &lt;div class="cpy" title="Copy Code to Clipboard"&gt;&lt;i class="icon small"&gt;&lt;/i&gt;&lt;pre&gt;&lt;code&gt;#!/bin/bash
-&lt;p&gt;set -eu&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;By default the Ubuntu minimal .iso will only boot with a legacy BIOS. So im going to show you how you can get a UbuntuMini.iso on a UEFI system so we can install a minimal Ubuntu setup for REMnux. For this to happen we must build our own ISO using the Ubuntu minimal ISO, and a Ubuntu Server ISO.&lt;br&gt; Through my research on this, I came across a script on &lt;a target="_blank" href="https://noobient.com/2019/06/25/ubuntu-18-04-uefi-network-installer/"&gt;Noobient&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>
