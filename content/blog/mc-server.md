@@ -25,7 +25,7 @@ Open up another terminal or multiplexer and verify you are able to login via SSH
 
 ### Hardening SSH
 Once we are able to log into our user account, next thing we want to do is secure ssh. 
-You can now switch back to your original SSH or Console and logout of root, as we will be using the user account's SSH session to configure the linux server.</li>
+You can now switch back to your original SSH or Console and logout of root, as we will be using the user account's SSH session to configure the linux server.
 <br>
 
 First step is changing the port of SSH, you can use any text editor but in this writeup i will be using nvim.
