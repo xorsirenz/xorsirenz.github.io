@@ -12,5 +12,7 @@ title: "xorsirenz(about)"
         <li><a href="https://www.scworld.com/podcast-subscribe">security weekly</a></li>
         <li><a href="https://twit.tv/shows/security-now">security now</a></li>
         <li><a href="https://feed.jupiter.zone/allshows">jupiter broadcasting</a></li>
+        <br><li>i run a minecraft server. feel free to join the discord to get whitelisted!</li><br>
+        <li><a href="https://somc.online">somc.online</a></li>
     </div>
 </article>
